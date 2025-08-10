@@ -2,7 +2,6 @@ def add(x, y):
     return x + y
 
 def divide(x, y):
-    # Add a check to prevent division by zero
     if y == 0:
         return "Error: Division by zero"
     return x / y
@@ -27,4 +26,5 @@ elif a =="divide" : result = divide(x,y)
 elif a =="multiply" : result = multiply(x,y)
 
 print(result)
+
 
